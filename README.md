@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/Home.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="Project.html" class="nav__link ">Project</a>
+                    </li>
+                    <li>
+                        <a href="Resume.html" class="nav__link ">Resume</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+
+        <section class="home" id="home">
+            <div class="home__container container grid">
+               <img src="Profile.jpg" alt="" class="home_img"/>
+               <div class="home__data">
+                <h1 class="home__name">Rashmini Chamathsara</h1>
+                <p class="home__work">Junior Software Engineer</p>
+                <dl class="home__list">
+                    <dt>AGE:</dt>
+                    <dd>23</dd>
+                    <dt>PHONE:</dt>
+                    <dd>+94714027047</dd>
+                    <dt>EMAIL:</dt>
+                    <dd>rashmini.20221416@iit.ac.lk</dd>
+                    <dt>ADDRESS:</dt>
+                    <dd>No,53,Horagollawaththa,Nittambuwa</dd>
+                </dl>
+                <div class="home__socials">
+                    <a href="https://github.com/Rashmini280" target="" class="home__social-link"><i class="ri-github-fill"></i></a>
+                    <a href="www.linkedin.com/in/rashmini-chamathsara-aththanayake-291a13254" target="" class="home__social-link"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="" target="" class="home__social-link"><i class="ri-facebook-box-fill"></i></a>
+                </div>
+
+               </div>
+            </div>
+        </section>
+        <section class="hello section container">
+            <h2 class="section__title">Hi</h2>
+            <p class="hello__details text-lg">
+                I am Rashmini Chamathsara. I am 23 years old.
+                I am a second year undergraduate in informatics institute of Technology.
+                I am eager to develop my skills in order to fulfil my goals. I am currently looking for a internship programme 
+                from a well-estabilished company to gain new skills for my growth.
+            </p>
+            <a href="Rashmini Chamathsara (4) (1).pdf" class="button button text-sm"><i class="ri-file-download-line"></i>
+                DOWNLOAD CV
+
+            </a>
+        </section>
+        <h1>Projects_</h1>
+        <div class="gallery">
+            <div class="card">
+              <img src="Screenshot 2024-05-12 212655.png" alt="Project 1">
+              <div class="card-buttons">
+                <a href="Project.html" class="btn">More Info</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="Screenshot 2024-05-12 223625.png" alt="Project 2">
+              <div class="card-buttons">
+                <a href="Project.html" class="btn">More Info</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="Screenshot 2024-05-13 012318.png" alt="Project 2">
+              <div class="card-buttons">
+                 <a href="Project.html" class="btn">More Info</a>
+              </div>
+            </div>
+            
+        </div>                
+        <script src="script.js"></script>
+</body>
+</html>
